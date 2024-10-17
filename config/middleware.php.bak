@@ -1,0 +1,8 @@
+<?php
+// config/middleware.php
+
+return [
+    'route' => [
+        'api' => \App\Http\Middleware\WithAuthorization::class,
+    ],
+];
